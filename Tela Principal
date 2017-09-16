@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css"> </head>
+
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="#">CONDOMÍNIO THE PALLACE</a>
+      <button class="navbar-toggler navbar-toggler-right" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+        <form class="form-inline m-0">
+          <input class="form-control mr-2" type="text" placeholder="Usuário">
+          <input class="form-control mr-2" type="text" placeholder="Senha">
+          <button class="btn" type="submit">Entrar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="py-2 bg-dark text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-1">Manutenção</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <center>
+            <input type="submit" name="b1" value="Cadastro de Moradores">
+            <a href="Cadastro de Visitantes.html">
+              <input type="submit" name="b1" value="Cadastro de Visitantes"> </a>
+          </center>
+          <a href="Cadastro de Visitantes.html"> </a>
+        </div>
+        <div class="col-md-6">
+          <center>
+            <input type="submit" name="b1" value="Outras Ferramentas"> </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
