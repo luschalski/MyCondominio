@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -19,8 +18,8 @@
           </li>
         </ul>
         <form class="form-inline m-0">
-          <input class="form-control mr-2" type="text" placeholder="Usuário">
-          <input class="form-control mr-2" type="text" placeholder="Senha">
+          <input class="form-control mr-2" type="text" placeholder="Usuário" required>
+          <input class="form-control mr-2" type="text" placeholder="Senha" required>
           <button class="btn" type="submit">Entrar</button>
         </form>
       </div>
@@ -96,9 +95,9 @@
         <div class="col-md-12">
           <div class="blockquote">
             <p class="text-white">Data:</p>
-            <input type="text" name="dia" size="2" maxlength="2" value="">
-            <input type="text" name="mes" size="2" maxlength="2" value="">
-            <input type="text" name="ano" size="4" maxlength="4" value=""> </div>
+            <input type="text" name="dia" size="2" maxlength="2" value="" >
+            <input type="text" name="mes" size="2" maxlength="2" value="" >
+            <input type="text" name="ano" size="4" maxlength="4" value="" > </div>
         </div>
       </div>
     </div>
