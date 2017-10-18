@@ -98,12 +98,27 @@
             <input type="text" name="dia" size="2" maxlength="2" value="" >
             <input type="text" name="mes" size="2" maxlength="2" value="" >
             <input type="text" name="ano" size="4" maxlength="4" value="" > </div>
-        </div>
+		 </div>
+		<div class="blockquote">
+            <p class="text-white">Código do Quarto</p>
+            <input type="text" name="numero" size="2" maxlength="2" value="">
       </div>
     </div>
   </div>
   <center>
-    <input type="submit" name="b1" value="Finalizar"> </center>
-</body>
+	<button onclick="myFunctiona()">Salvar</button>
 
+<script>
+function myFunctiona() {
+    alert("Salvo com Sucesso!");
+}
+</script>
+<button onclick="myFunction()">Excluir</button>
+
+<script>
+function myFunction() {
+    confirm("Deseja confirmar a exclusão?");
+}
+</script>
+</body>
 </html>
